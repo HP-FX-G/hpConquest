@@ -1,0 +1,609 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram name="Page-1" id="nz2luUgK-8QfzJWAqBNW">
+    <mxGraphModel dx="5185" dy="2093" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tni-btw-gFF11uxWwtXz-1" value="Aave V3" style="whiteSpace=wrap;html=1;align=center;gradientColor=#FF00FF;gradientDirection=east;fillColor=#00FFFF;strokeColor=#000000;strokeWidth=2;fontFamily=Arial;fontSize=48;" parent="1" vertex="1">
+          <mxGeometry x="600" y="160" width="320" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-2" value="Supply" style="ellipse;whiteSpace=wrap;html=1;align=center;gradientColor=#FF00FF;gradientDirection=east;fillColor=#00FFFF;strokeColor=#000000;strokeWidth=2;fontFamily=Arial;fontSize=24;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="260" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-3" value="Withdraw" style="ellipse;whiteSpace=wrap;html=1;align=center;gradientColor=#FF00FF;gradientDirection=east;fillColor=#00FFFF;strokeColor=#000000;strokeWidth=2;fontFamily=Arial;fontSize=24;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="140" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-4" value="Borrow" style="ellipse;whiteSpace=wrap;html=1;align=center;gradientColor=#FF00FF;gradientDirection=east;fillColor=#00FFFF;strokeColor=#000000;strokeWidth=2;fontFamily=Arial;fontSize=24;" parent="1" vertex="1">
+          <mxGeometry x="520" y="400" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-5" value="Repay" style="ellipse;whiteSpace=wrap;html=1;align=center;gradientColor=#FF00FF;gradientDirection=east;fillColor=#00FFFF;strokeColor=#000000;strokeWidth=2;fontFamily=Arial;fontSize=24;" parent="1" vertex="1">
+          <mxGeometry x="840" y="400" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-6" value="Flashloan" style="ellipse;whiteSpace=wrap;html=1;align=center;gradientColor=#FF00FF;gradientDirection=east;fillColor=#00FFFF;strokeColor=#000000;strokeWidth=2;fontFamily=Arial;fontSize=24;" parent="1" vertex="1">
+          <mxGeometry x="680" y="520" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-7" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#00FFFF;" parent="1" source="tni-btw-gFF11uxWwtXz-4" target="tni-btw-gFF11uxWwtXz-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="280" as="sourcePoint" />
+            <mxPoint x="810" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="360" />
+              <mxPoint x="760" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-8" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#00FFFF;" parent="1" source="tni-btw-gFF11uxWwtXz-5" target="tni-btw-gFF11uxWwtXz-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="450" as="sourcePoint" />
+            <mxPoint x="880" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="920" y="360" />
+              <mxPoint x="760" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-9" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#00FFFF;" parent="1" source="tni-btw-gFF11uxWwtXz-2" target="tni-btw-gFF11uxWwtXz-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="280" as="sourcePoint" />
+            <mxPoint x="590" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="960" y="300" />
+              <mxPoint x="960" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-10" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#00FFFF;" parent="1" source="tni-btw-gFF11uxWwtXz-1" target="tni-btw-gFF11uxWwtXz-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="280" as="sourcePoint" />
+            <mxPoint x="1010" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="960" y="240" />
+              <mxPoint x="960" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-11" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#00FFFF;" parent="1" source="tni-btw-gFF11uxWwtXz-1" target="tni-btw-gFF11uxWwtXz-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="449" as="sourcePoint" />
+            <mxPoint x="790" y="449" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-12" value="B&lt;div style=&quot;font-size: 24px;&quot;&gt;(bravo)&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;gradientColor=none;gradientDirection=east;fillColor=#00FF00;strokeColor=#000000;strokeWidth=2;fontFamily=Arial;fontSize=48;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="280" y="920" width="320" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-13" value="&lt;div style=&quot;&quot;&gt;D&lt;/div&gt;&lt;div style=&quot;font-size: 24px;&quot;&gt;(delta)&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;gradientColor=none;gradientDirection=east;fillColor=#00FF00;strokeColor=#000000;strokeWidth=2;fontFamily=Arial;fontSize=48;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="280" y="1200" width="320" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-14" value="&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 48px;&quot;&gt;C&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 24px;&quot;&gt;(charlie)&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;gradientColor=none;gradientDirection=east;fillColor=#FF0000;strokeColor=#000000;strokeWidth=2;fontFamily=Arial;fontSize=48;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="920" y="920" width="320" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-15" value="Ethereum" style="ellipse;whiteSpace=wrap;html=1;align=center;gradientColor=none;gradientDirection=east;fillColor=#9999FF;strokeColor=#000000;strokeWidth=2;fontFamily=Arial;fontSize=24;" parent="1" vertex="1">
+          <mxGeometry x="-320" y="360" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-16" value="interfaces" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#00FF00;fontFamily=Arial;strokeColor=#000000;strokeWidth=2;fontColor=#000000;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="20" y="960" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-19" value="&lt;div style=&quot;&quot;&gt;Conquest&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;gradientColor=#FFFF00;gradientDirection=east;fillColor=#0080FF;strokeColor=#000000;strokeWidth=2;fontFamily=Arial;fontSize=48;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-400" y="920" width="320" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;startArrow=classic;startFill=1;endFill=1;strokeColor=#00FF00;" parent="1" source="tni-btw-gFF11uxWwtXz-16" target="tni-btw-gFF11uxWwtXz-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="1040" as="sourcePoint" />
+            <mxPoint x="300" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;startArrow=classic;startFill=1;endFill=1;strokeColor=#00FF00;" parent="1" source="tni-btw-gFF11uxWwtXz-19" target="tni-btw-gFF11uxWwtXz-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-30" y="1090" as="sourcePoint" />
+            <mxPoint x="70" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-22" value="Execute&lt;div&gt;Operation&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;gradientColor=#FFFF00;gradientDirection=east;fillColor=#0080FF;strokeColor=#000000;strokeWidth=2;fontFamily=Arial;fontSize=24;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-320" y="760" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-23" value="calls" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#00FF00;fontFamily=Arial;strokeColor=#000000;strokeWidth=2;fontColor=#000000;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="20" y="760" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-24" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;endFill=0;startArrow=classic;startFill=1;strokeColor=#00FF00;" parent="1" source="tni-btw-gFF11uxWwtXz-23" target="tni-btw-gFF11uxWwtXz-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-70" y="1010" as="sourcePoint" />
+            <mxPoint x="30" y="1010" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-25" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;startArrow=classic;startFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#00FF00;" parent="1" source="tni-btw-gFF11uxWwtXz-6" target="tni-btw-gFF11uxWwtXz-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="550" as="sourcePoint" />
+            <mxPoint x="-40" y="870" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="760" y="680" />
+              <mxPoint x="100" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-26" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=#66FFB3;" parent="1" source="tni-btw-gFF11uxWwtXz-22" target="tni-btw-gFF11uxWwtXz-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-150" y="810" as="sourcePoint" />
+            <mxPoint x="30" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-27" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;endFill=0;startArrow=classic;startFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#00FFFF;" parent="1" source="tni-btw-gFF11uxWwtXz-35" target="tni-btw-gFF11uxWwtXz-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="560" as="sourcePoint" />
+            <mxPoint x="358.75" y="590" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-29" value="Ethereum&lt;div&gt;Vault&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;gradientColor=none;gradientDirection=east;fillColor=#9999FF;strokeColor=#000000;strokeWidth=2;fontFamily=Arial;fontSize=48;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="-400" y="160" width="320" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-30" value="interfaces" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#9999FF;fontFamily=Arial;strokeColor=#000000;strokeWidth=2;fontColor=#FFFFFF;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="180" y="200" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-31" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;endFill=1;startArrow=classic;startFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#9999FF;" parent="1" source="tni-btw-gFF11uxWwtXz-30" target="tni-btw-gFF11uxWwtXz-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="320" as="sourcePoint" />
+            <mxPoint x="570" y="320" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-32" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;endFill=1;startArrow=classic;startFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#9999FF;" parent="1" source="tni-btw-gFF11uxWwtXz-29" target="tni-btw-gFF11uxWwtXz-30" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="170" as="sourcePoint" />
+            <mxPoint x="420" y="170" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-34" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;endFill=0;startArrow=none;startFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#9999FF;" parent="1" source="tni-btw-gFF11uxWwtXz-15" target="tni-btw-gFF11uxWwtXz-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="70" as="sourcePoint" />
+            <mxPoint x="160" y="140" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-35" value="transfers" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#00FFFF;fontFamily=Arial;strokeColor=#000000;strokeWidth=2;fontColor=#FFFFFF;fontSize=16;gradientColor=#FF00FF;gradientDirection=east;" parent="1" vertex="1">
+          <mxGeometry x="-320" y="520" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-38" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;endFill=0;startArrow=classic;startFill=1;strokeColor=#00FFFF;" parent="1" source="tni-btw-gFF11uxWwtXz-35" target="tni-btw-gFF11uxWwtXz-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-150" y="510" as="sourcePoint" />
+            <mxPoint x="-240" y="480" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-39" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;endFill=0;startArrow=classic;startFill=1;strokeColor=#00FFFF;" parent="1" source="tni-btw-gFF11uxWwtXz-22" target="tni-btw-gFF11uxWwtXz-35" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-130" y="600" as="sourcePoint" />
+            <mxPoint x="-130" y="640" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-40" value="calls" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#0080FF;fontFamily=Arial;strokeColor=#000000;strokeWidth=2;fontColor=#000000;fontSize=16;gradientColor=#FFFF00;gradientDirection=east;" parent="1" vertex="1">
+          <mxGeometry x="-640" y="760" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-41" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;endFill=0;startArrow=classic;startFill=1;strokeColor=#66FFB3;" parent="1" source="tni-btw-gFF11uxWwtXz-40" target="tni-btw-gFF11uxWwtXz-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-230" y="770" as="sourcePoint" />
+            <mxPoint x="-230" y="610" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-42" value="&lt;div style=&quot;&quot;&gt;Flash&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Ethereum&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;gradientColor=none;gradientDirection=east;fillColor=#0000FF;strokeColor=#000000;strokeWidth=2;fontFamily=Arial;fontSize=48;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="-400" y="1160" width="320" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-43" value="cascade" style="ellipse;whiteSpace=wrap;html=1;align=center;gradientColor=none;gradientDirection=east;fillColor=#0000FF;strokeColor=#000000;strokeWidth=2;fontFamily=Arial;fontSize=24;fontColor=#FF8000;" parent="1" vertex="1">
+          <mxGeometry x="-200" y="1390" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-44" value="mint tokens" style="ellipse;whiteSpace=wrap;html=1;align=center;gradientColor=none;gradientDirection=east;fillColor=#0000FF;strokeColor=#000000;strokeWidth=2;fontFamily=Arial;fontSize=24;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="-320" y="1480" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-45" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=#0000FF;" parent="1" source="tni-btw-gFF11uxWwtXz-42" target="tni-btw-gFF11uxWwtXz-44" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-250" y="1360" as="sourcePoint" />
+            <mxPoint x="-250" y="1440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-240" y="1360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-46" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=#0000FF;" parent="1" source="tni-btw-gFF11uxWwtXz-42" target="tni-btw-gFF11uxWwtXz-43" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-180" y="1350" as="sourcePoint" />
+            <mxPoint x="-300" y="1430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-240" y="1360" />
+              <mxPoint x="-120" y="1360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-47" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;endFill=0;startArrow=classic;startFill=1;strokeColor=#66FFB3;" parent="1" source="tni-btw-gFF11uxWwtXz-44" target="tni-btw-gFF11uxWwtXz-40" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-750" y="999.38" as="sourcePoint" />
+            <mxPoint x="-590" y="999.38" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-520" y="1520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-48" value="&lt;div style=&quot;&quot;&gt;Utility&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;gradientColor=none;gradientDirection=east;fillColor=#E6E6E6;strokeColor=#000000;strokeWidth=2;fontFamily=Arial;fontSize=48;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-400" y="1800" width="320" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-49" value="Send Token" style="ellipse;whiteSpace=wrap;html=1;align=center;gradientColor=none;gradientDirection=east;fillColor=#E6E6E6;strokeColor=#000000;strokeWidth=2;fontFamily=Arial;fontSize=24;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-320" y="1680" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-50" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" parent="1" source="tni-btw-gFF11uxWwtXz-49" target="tni-btw-gFF11uxWwtXz-48" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-110" y="1640" as="sourcePoint" />
+            <mxPoint x="-110" y="1800" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-51" value="Multi Send" style="ellipse;whiteSpace=wrap;html=1;align=center;gradientColor=none;gradientDirection=east;fillColor=#E6E6E6;strokeColor=#000000;strokeWidth=2;fontFamily=Arial;fontSize=24;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-640" y="1760" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-52" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Wrapped Native Token&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;gradientColor=none;gradientDirection=east;fillColor=#E6E6E6;strokeColor=#000000;strokeWidth=2;fontFamily=Arial;fontSize=24;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-640" y="1920" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-53" value="Add Funds" style="ellipse;whiteSpace=wrap;html=1;align=center;gradientColor=none;gradientDirection=east;fillColor=#E6E6E6;strokeColor=#000000;strokeWidth=2;fontFamily=Arial;fontSize=24;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-440" y="2040" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-54" value="Return Funds" style="ellipse;whiteSpace=wrap;html=1;align=center;gradientColor=none;gradientDirection=east;fillColor=#E6E6E6;strokeColor=#000000;strokeWidth=2;fontFamily=Arial;fontSize=24;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-200" y="2040" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-55" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="tni-btw-gFF11uxWwtXz-51" target="tni-btw-gFF11uxWwtXz-48" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-310" y="2000" as="sourcePoint" />
+            <mxPoint x="-440" y="1890" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-440" y="1800" />
+              <mxPoint x="-440" y="1880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-56" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="tni-btw-gFF11uxWwtXz-52" target="tni-btw-gFF11uxWwtXz-48" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-470" y="1810" as="sourcePoint" />
+            <mxPoint x="-390" y="1890" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-440" y="1960" />
+              <mxPoint x="-440" y="1880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-57" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="tni-btw-gFF11uxWwtXz-53" target="tni-btw-gFF11uxWwtXz-48" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-280" y="2060" as="sourcePoint" />
+            <mxPoint x="-200" y="1980" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-360" y="2000" />
+              <mxPoint x="-240" y="2000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-58" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="tni-btw-gFF11uxWwtXz-54" target="tni-btw-gFF11uxWwtXz-48" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-280" y="2070" as="sourcePoint" />
+            <mxPoint x="-160" y="1990" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-120" y="2000" />
+              <mxPoint x="-240" y="2000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-59" value="Ethereum" style="ellipse;whiteSpace=wrap;html=1;align=center;gradientColor=none;gradientDirection=east;fillColor=#9999FF;strokeColor=#000000;strokeWidth=2;fontFamily=Arial;fontSize=24;" parent="1" vertex="1">
+          <mxGeometry x="-40" y="1200" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-60" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;" parent="1" source="tni-btw-gFF11uxWwtXz-42" target="tni-btw-gFF11uxWwtXz-59" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="18.75" y="1250" as="sourcePoint" />
+            <mxPoint x="18.75" y="1410" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-61" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;endFill=0;startArrow=classic;startFill=1;strokeColor=#9999FF;" parent="1" source="tni-btw-gFF11uxWwtXz-59" target="tni-btw-gFF11uxWwtXz-44" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="1420" as="sourcePoint" />
+            <mxPoint x="90" y="1540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="97" y="1520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-62" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;endFill=0;startArrow=classic;startFill=1;strokeColor=#0000FF;" parent="1" source="tni-btw-gFF11uxWwtXz-59" target="tni-btw-gFF11uxWwtXz-43" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="237" y="1218" as="sourcePoint" />
+            <mxPoint x="-20" y="1470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-17" y="1430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-63" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;endFill=0;startArrow=classic;startFill=1;strokeColor=#9999FF;exitX=-0.006;exitY=0.883;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.819;entryY=0.111;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="tni-btw-gFF11uxWwtXz-12" target="tni-btw-gFF11uxWwtXz-59" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="1060" as="sourcePoint" />
+            <mxPoint x="90" y="1210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="1060" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-64" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;endFill=0;startArrow=classic;startFill=1;strokeColor=#0000FF;exitX=-0.009;exitY=0.943;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="tni-btw-gFF11uxWwtXz-12" target="tni-btw-gFF11uxWwtXz-59" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="1090" as="sourcePoint" />
+            <mxPoint x="180" y="1232" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="1070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-65" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;strokeWidth=2;endFill=0;startArrow=classic;startFill=1;strokeColor=#9999FF;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="tni-btw-gFF11uxWwtXz-14" target="tni-btw-gFF11uxWwtXz-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="990" as="sourcePoint" />
+            <mxPoint x="640" y="1010" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-66" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.002;exitY=0.299;exitDx=0;exitDy=0;strokeWidth=3;endFill=0;startArrow=classic;startFill=1;strokeColor=#0000FF;entryX=1.006;entryY=0.299;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" source="tni-btw-gFF11uxWwtXz-14" target="tni-btw-gFF11uxWwtXz-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="833" y="1068" as="sourcePoint" />
+            <mxPoint x="600" y="1080" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-67" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;endFill=0;startArrow=classic;startFill=1;strokeColor=#66FFB3;" parent="1" source="tni-btw-gFF11uxWwtXz-49" target="tni-btw-gFF11uxWwtXz-40" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-480" y="1580" as="sourcePoint" />
+            <mxPoint x="-680" y="880" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-600" y="1720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-68" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;endFill=0;startArrow=classic;startFill=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;strokeColor=#66FFB3;" parent="1" source="tni-btw-gFF11uxWwtXz-14" target="tni-btw-gFF11uxWwtXz-71" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="1350" as="sourcePoint" />
+            <mxPoint x="40" y="1740" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="760" y="1040" />
+              <mxPoint x="760" y="1720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-71" value="delay" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#0080FF;fontFamily=Arial;strokeColor=#000000;strokeWidth=2;fontColor=#000000;fontSize=16;gradientColor=#FFFF00;gradientDirection=east;" parent="1" vertex="1">
+          <mxGeometry x="-160" y="1680" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-72" value="&lt;div style=&quot;&quot;&gt;Workbench&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;gradientColor=none;gradientDirection=east;fillColor=#FFFF00;strokeColor=#000000;strokeWidth=2;fontFamily=Arial;fontSize=48;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="520" width="320" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-73" value="update&lt;div&gt;workbench&lt;/div&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#FF0000;fontFamily=Arial;strokeColor=#000000;strokeWidth=2;fontColor=#FFFFFF;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="560" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-74" value="deposit&lt;div&gt;received&lt;/div&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#FF0000;fontFamily=Arial;strokeColor=#000000;strokeWidth=2;fontColor=#FFFFFF;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="640" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-76" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;endFill=0;startArrow=classic;startFill=1;strokeColor=#FF0000;" parent="1" source="tni-btw-gFF11uxWwtXz-74" target="tni-btw-gFF11uxWwtXz-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="990" y="710" as="sourcePoint" />
+            <mxPoint x="990" y="830" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-77" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;endFill=0;startArrow=classic;startFill=1;strokeColor=#FF0000;" parent="1" source="tni-btw-gFF11uxWwtXz-72" target="tni-btw-gFF11uxWwtXz-73" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1220" y="670" as="sourcePoint" />
+            <mxPoint x="1220" y="870" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-78" value="30/30 Complete?" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#FFFF00;fontFamily=Arial;strokeColor=#000000;strokeWidth=2;fontColor=#000000;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1720" y="560" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-79" value="True" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#FFFF00;fontFamily=Arial;strokeColor=#000000;strokeWidth=2;fontColor=#000000;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1720" y="640" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-80" value="False" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#FFFF00;fontFamily=Arial;strokeColor=#000000;strokeWidth=2;fontColor=#000000;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1720" y="480" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-81" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;endFill=0;startArrow=classic;startFill=1;strokeColor=#FFFF00;" parent="1" source="tni-btw-gFF11uxWwtXz-78" target="tni-btw-gFF11uxWwtXz-72" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1760" y="610" as="sourcePoint" />
+            <mxPoint x="1640" y="610" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-82" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;endFill=0;startArrow=classic;startFill=1;strokeColor=#FFFF00;" parent="1" source="tni-btw-gFF11uxWwtXz-6" target="tni-btw-gFF11uxWwtXz-80" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1900" y="318.46" as="sourcePoint" />
+            <mxPoint x="1780" y="318.46" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="560" />
+              <mxPoint x="1000" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-83" value="&lt;div style=&quot;&quot;&gt;A&lt;/div&gt;&lt;div style=&quot;font-size: 24px;&quot;&gt;(alpha)&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;gradientColor=none;gradientDirection=east;fillColor=#FF0000;strokeColor=#000000;strokeWidth=2;fontFamily=Arial;fontSize=48;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="2200" y="920" width="320" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-84" value="Withdraw&lt;div&gt;Funds&lt;/div&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#FFFF00;fontFamily=Arial;strokeColor=#000000;strokeWidth=2;fontColor=#000000;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1720" y="960" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-85" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;endFill=0;startArrow=classic;startFill=1;strokeColor=#FFFF00;" parent="1" source="tni-btw-gFF11uxWwtXz-84" target="tni-btw-gFF11uxWwtXz-79" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1780" y="880" as="sourcePoint" />
+            <mxPoint x="1660" y="880" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-86" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;endFill=0;startArrow=classic;startFill=1;strokeColor=#FFFF00;" parent="1" source="tni-btw-gFF11uxWwtXz-84" target="tni-btw-gFF11uxWwtXz-87" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1990" y="780" as="sourcePoint" />
+            <mxPoint x="1870" y="780" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-87" value="Ethereum" style="ellipse;whiteSpace=wrap;html=1;align=center;gradientColor=none;gradientDirection=east;fillColor=#9999FF;strokeColor=#000000;strokeWidth=2;fontFamily=Arial;fontSize=24;" parent="1" vertex="1">
+          <mxGeometry x="1960" y="960" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-88" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#FF0000;" parent="1" source="tni-btw-gFF11uxWwtXz-83" target="tni-btw-gFF11uxWwtXz-87" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2080" y="740" as="sourcePoint" />
+            <mxPoint x="2000" y="680" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-89" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;endFill=0;startArrow=classic;startFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#FFFF00;" parent="1" source="tni-btw-gFF11uxWwtXz-12" target="tni-btw-gFF11uxWwtXz-84" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="1260" as="sourcePoint" />
+            <mxPoint x="1770" y="1160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="1120" />
+              <mxPoint x="1800" y="1120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-90" value="Refusal" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#FFFF00;fontFamily=Arial;strokeColor=#000000;strokeWidth=2;fontColor=#000000;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1880" y="560" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-91" value="Arbitrage" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fillColor=#0080FF;fontFamily=Arial;strokeColor=#000000;strokeWidth=2;fontColor=#000000;fontSize=16;gradientColor=#FFFF00;gradientDirection=east;" parent="1" vertex="1">
+          <mxGeometry x="2520" y="560" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-92" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;endFill=0;startArrow=classic;startFill=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#66FFB3;" parent="1" source="tni-btw-gFF11uxWwtXz-91" target="tni-btw-gFF11uxWwtXz-90" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2240" y="1180" as="sourcePoint" />
+            <mxPoint x="1320" y="1860" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-93" value="&lt;div style=&quot;&quot;&gt;Uniswap V3&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;gradientColor=none;gradientDirection=east;fillColor=#FF0080;strokeColor=#000000;strokeWidth=2;fontFamily=Arial;fontSize=48;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="1600" y="1640" width="320" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-94" value="Swap Token" style="ellipse;whiteSpace=wrap;html=1;align=center;gradientColor=none;gradientDirection=east;fillColor=#FF0080;strokeColor=#000000;strokeWidth=2;fontFamily=Arial;fontSize=24;" parent="1" vertex="1">
+          <mxGeometry x="1680" y="1880" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-95" value="Ethereum" style="ellipse;whiteSpace=wrap;html=1;align=center;gradientColor=none;gradientDirection=east;fillColor=#9999FF;strokeColor=#000000;strokeWidth=2;fontFamily=Arial;fontSize=24;" parent="1" vertex="1">
+          <mxGeometry x="1840" y="2080" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-96" value="Multi Swap" style="ellipse;whiteSpace=wrap;html=1;align=center;gradientColor=none;gradientDirection=east;fillColor=#FF0080;strokeColor=#000000;strokeWidth=2;fontFamily=Arial;fontSize=24;" parent="1" vertex="1">
+          <mxGeometry x="1680" y="1480" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-97" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=#FF0080;" parent="1" source="tni-btw-gFF11uxWwtXz-93" target="tni-btw-gFF11uxWwtXz-94" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1580" y="2000" as="sourcePoint" />
+            <mxPoint x="1580" y="2040" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-98" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=#FF0080;" parent="1" source="tni-btw-gFF11uxWwtXz-96" target="tni-btw-gFF11uxWwtXz-93" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2030" y="1720" as="sourcePoint" />
+            <mxPoint x="2030" y="1800" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-99" value="Paraswap V5" style="whiteSpace=wrap;html=1;align=center;gradientColor=none;gradientDirection=east;fillColor=#0080FF;strokeColor=#000000;strokeWidth=2;fontFamily=Arial;fontSize=48;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="1640" width="320" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-100" value="Swap Token" style="ellipse;whiteSpace=wrap;html=1;align=center;gradientColor=none;gradientDirection=east;fillColor=#0080FF;strokeColor=#000000;strokeWidth=2;fontFamily=Arial;fontSize=24;" parent="1" vertex="1">
+          <mxGeometry x="1160" y="1880" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-101" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=#0080FF;" parent="1" source="tni-btw-gFF11uxWwtXz-99" target="tni-btw-gFF11uxWwtXz-100" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1380" y="1860" as="sourcePoint" />
+            <mxPoint x="1380" y="1940" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-102" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;endFill=0;startArrow=classic;startFill=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#66FFB3;" parent="1" source="tni-btw-gFF11uxWwtXz-94" target="tni-btw-gFF11uxWwtXz-91" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3180" y="1020" as="sourcePoint" />
+            <mxPoint x="2700" y="1020" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2600" y="1920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-103" value="BNB" style="ellipse;whiteSpace=wrap;html=1;align=center;gradientColor=none;gradientDirection=east;fillColor=#FFFF00;strokeColor=#000000;strokeWidth=2;fontFamily=Arial;fontSize=24;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="1520" y="2080" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-104" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=#FF0080;startArrow=none;startFill=0;endFill=1;" parent="1" source="tni-btw-gFF11uxWwtXz-94" target="tni-btw-gFF11uxWwtXz-95" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1820" y="2000" as="sourcePoint" />
+            <mxPoint x="1820" y="2080" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-105" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=#FF0080;startArrow=none;startFill=0;endFill=1;" parent="1" source="tni-btw-gFF11uxWwtXz-95" target="tni-btw-gFF11uxWwtXz-103" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1770" y="1970" as="sourcePoint" />
+            <mxPoint x="1930" y="2090" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-106" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=#FF0080;startArrow=none;startFill=0;endFill=1;" parent="1" source="tni-btw-gFF11uxWwtXz-103" target="tni-btw-gFF11uxWwtXz-100" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1850" y="2130" as="sourcePoint" />
+            <mxPoint x="1690" y="2130" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-107" value="BNB" style="ellipse;whiteSpace=wrap;html=1;align=center;gradientColor=none;gradientDirection=east;fillColor=#FFFF00;strokeColor=#000000;strokeWidth=2;fontFamily=Arial;fontSize=24;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="1160" y="2080" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-108" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=#0080FF;startArrow=none;startFill=0;endFill=1;" parent="1" source="tni-btw-gFF11uxWwtXz-100" target="tni-btw-gFF11uxWwtXz-107" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="2200" as="sourcePoint" />
+            <mxPoint x="1310" y="2000" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-109" value="Ethereum" style="ellipse;whiteSpace=wrap;html=1;align=center;gradientColor=none;gradientDirection=east;fillColor=#9999FF;strokeColor=#000000;strokeWidth=2;fontFamily=Arial;fontSize=24;" parent="1" vertex="1">
+          <mxGeometry x="840" y="2080" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-110" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=#0080FF;startArrow=none;startFill=0;endFill=1;" parent="1" source="tni-btw-gFF11uxWwtXz-107" target="tni-btw-gFF11uxWwtXz-109" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1250" y="1970" as="sourcePoint" />
+            <mxPoint x="1250" y="2090" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-111" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;strokeColor=#0080FF;startArrow=none;startFill=0;endFill=1;" parent="1" source="tni-btw-gFF11uxWwtXz-109" target="tni-btw-gFF11uxWwtXz-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1170" y="2130" as="sourcePoint" />
+            <mxPoint x="1010" y="2130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="920" y="1280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-112" value="" style="endArrow=none;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;endFill=0;startArrow=classic;startFill=1;strokeColor=#0080FF;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tni-btw-gFF11uxWwtXz-12" target="tni-btw-gFF11uxWwtXz-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="780" as="sourcePoint" />
+            <mxPoint x="310" y="1150" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-113" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;endFill=0;startArrow=classic;startFill=1;strokeColor=#0080FF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="tni-btw-gFF11uxWwtXz-5" target="tni-btw-gFF11uxWwtXz-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="890" y="650" as="sourcePoint" />
+            <mxPoint x="490" y="840" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="920" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tni-btw-gFF11uxWwtXz-114" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;endFill=0;startArrow=classic;startFill=1;strokeColor=#FFFF00;entryX=0.535;entryY=0.007;entryDx=0;entryDy=0;exitX=0.564;exitY=1.003;exitDx=0;exitDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" source="tni-btw-gFF11uxWwtXz-5" target="tni-btw-gFF11uxWwtXz-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="480" as="sourcePoint" />
+            <mxPoint x="480" y="920" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="930" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
