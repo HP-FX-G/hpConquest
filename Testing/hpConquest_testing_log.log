@@ -1,0 +1,68 @@
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< TEST 01 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Basic Info {
+    Network --> Ethereum
+    Native --> Ethereum
+    Symbol --> ETH
+}
+Transaction Info {
+    Wallet Address --> 0x7f63E93d6CfF36bdb233bF53741fD3dF9f4B5868
+    Contract Address --> 0xDec80E988F4baF43be69c13711453013c212feA8
+    Contract Call --> executeWithSignerFee(bytes[] permit2Datas,tuple logicBatch,address signer,bytes signature,address[] tokensReturn)
+    Execution Logic Contract Address --> 0x5682da4762f8a1a2bd4a0746c04110a27d4c2e54
+    TXID --> 0x366d51af9e47d24d59e62a274fed7408a431d69bd2b75124901cb3e747cfbe33
+    Value --> 0.000007777785481353 ETH
+    Gas Price --> 2.103088377 Gwei
+    Gas Limit --> 820916
+    Gas Used --> 539020
+    Gas Fees --> 0.00113360669697054 ETH
+}
+Transaction Logic {
+    Aave V3: flashLoan --> transfer 10 USDT to 0x7f63E93d6CfF36bdb233bF53741fD3dF9f4B5868 from 0xDec80E988F4baF43be69c13711453013c212feA8
+    Uniswap V3: swapToken --> swap 10 USDT for 0.003892329020079111 ETH
+    Paraswap V5: swapToken --> swap 0.003892329020079111 ETH for 10.12 USDT
+    Aave V3: flashLoan --> recall 10 USDT to 0xDec80E988F4baF43be69c13711453013c212feA8 from 0x7f63E93d6CfF36bdb233bF53741fD3dF9f4B5868 + 0.000007777785481353 ETH fee
+}
+Contract Internal Transactions {
+    Transaction-1 --> create2_0_1	{
+        From: 0xDec80E988F4baF43be69c13711453013c212feA8 (Contract Address: Router.sol)
+        To: 0x5682da4762f8a1a2bd4a0746c04110a27d4c2e54 (Proxy Contract: Agent.sol)
+        Value: 0 ETH
+        Gas Limit: 715298
+    }
+	Transaction-2 --> call_0_1 {
+        From: 0xDec80E988F4baF43be69c13711453013c212feA8 (Contract Address: Router.sol)
+        To: 0x5682da4762f8a1a2bd4a0746c04110a27d4c2e54 (Proxy Contract: Agent.sol)
+        Value: 0.000007777785481353 ETH
+        Gas Limit: 629137
+    }
+    Transaction-3 --> call_0_1_1_1 {
+        From: 0x5682da4762f8a1a2bd4a0746c04110a27d4c2e54 (Proxy Contract: Agent.sol)
+        To: 0xfb20753f85f89be6f42d228667d70e62d1ba5f75 (I don't know but I'm guessing Uniswap V3 Swapper)
+        Value: 0.000007777785481353 ETH
+        Gas Limit: 597165
+    }
+    Transaction-4 --> call_0_1_1_1_1_1_1_1_1_1 {
+        From: 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 (Wrapped Ether)
+        To: 0x5682da4762f8a1a2bd4a0746c04110a27d4c2e54 (Proxy Contract: Agent.sol)
+        Value: 0.003892329020079111 ETH	
+        Gas Limit: 2300
+    }
+    Transaction-5 --> call_0_1_1_1_1_1_1_1_1 {
+        From: 0x5682da4762f8a1a2bd4a0746c04110a27d4c2e54 (Proxy Contract: Agent.sol)
+        To: 0xdef171fe48cf0115b1d80b88dc8eab59176fee57 (Paraswap V5: Augustus Swapper Mainnet)
+        Value: 0.003888157007089028 ETH
+        Gas Limit: 297178
+    }
+    Transaction-6 --> call_0_1_1_1_1_1_1_1_1_1_1 {
+        From: 0xdef171fe48cf0115b1d80b88dc8eab59176fee57 (Paraswap V5: Augustus Swapper Mainnet)
+        To: 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2 (Wrapped Ether)
+        Value: 0.003888157007089028 ETH
+        Gas Limit: 275135
+    }
+    Transaction-7 --> call_0_1_1_1 {
+        From: 0x5682da4762f8a1a2bd4a0746c04110a27d4c2e54 (Proxy Contract: Agent.sol)
+        To: 0x7f63e93d6cff36bdb233bf53741fd3df9f4b5868 (Wallet Address)
+        Value: 0.000004172012990083 ETH
+        Gas Limit: 132795
+    }
+
