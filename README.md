@@ -1,2 +1,2 @@
 # hpConquest
-DeFi Smart Contract Based Products for Token Leveraging, Hedged Positioning, &amp; Arbitrage
+# DeFi Project for Token Withdrawal from Scams, Hacked Wallets, and Multi-Level Marketing Platforms
